@@ -52,7 +52,7 @@ body {
 }
 
 .about-content.animate {
-  animation: fadeInAbout 4s ease-in-out forwards;
+  animation: fadeInAbout 2s ease-in-out forwards;
   opacity: 0; 
 }
 
@@ -489,10 +489,7 @@ section {
   .hf{
     font-size: 1rem ;
   }
-  .space{
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+  
   
 }
 @media (max-width: 767px) {
@@ -505,4 +502,7 @@ section {
   width:50px;
   border-radius: 50%;
   object-fit:cover;
+}
+html, body {
+    overscroll-behavior-y: contain; 
 }
